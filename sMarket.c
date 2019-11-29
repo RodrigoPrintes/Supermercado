@@ -4,6 +4,7 @@
 #include "stdio.h"
 #include "stdlib.h"
 #include "funcoes.h"
+#include "vd_dinamico.h"
 void main(){
 	int num_pvds , mda;
 	int *fa;
@@ -21,8 +22,14 @@ void main(){
 	scanf("%d",&num_pvds);
 	int i;
 	fa = newVd(num_pvds);
-	inserirFa(num_pvds);
-	scanf("%d",&novo_num_pvds);
-	novo_fa = newVd(num_pvds);
-	inserirFa(num_pvds);
+	// for(i=0;i<num_pvds){
+	// 	int n_fa;
+	// 	scanf("%d",&n_fa);
+		
+	// 	inserirVd(fa,n)
+	// }
+//	inserirFa(num_pvds);
+	//scanf("%d",&novo_num_pvds);
+	//novo_fa = newVd(num_pvds);
+//	inserirFa(num_pvds);
 }
